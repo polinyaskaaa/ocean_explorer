@@ -1,0 +1,21 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: doe-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: doe
+      POSTGRES_PASSWORD: doe_password
+      POSTGRES_DB: deep_ocean
+    ports:
+      - "5433:5432"
+    volumes:
+      - doe-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U doe -d deep_ocean"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  doe-pgdata:
