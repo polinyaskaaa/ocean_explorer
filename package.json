@@ -1,0 +1,14 @@
+{
+  "name": "deep-ocean-explorer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Інтерактивний навчальний вебдодаток для віртуального дослідження океанічних глибин (MVP 1)",
+  "workspaces": [
+    "server"
+  ],
+  "scripts": {
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "dev": "npm run -w server dev"
+  }
+}
