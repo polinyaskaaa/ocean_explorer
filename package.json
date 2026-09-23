@@ -4,11 +4,18 @@
   "version": "1.0.0",
   "description": "Інтерактивний навчальний вебдодаток для віртуального дослідження океанічних глибин (MVP 1)",
   "workspaces": [
-    "server"
+    "server",
+    "client"
   ],
   "scripts": {
     "db:up": "docker compose up -d",
     "db:down": "docker compose down",
-    "dev": "npm run -w server dev"
+    "dev": "concurrently -n server,client -c blue,magenta \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm run -w server dev",
+    "dev:client": "npm run -w client dev",
+    "build": "npm run -w server build && npm run -w client build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
   }
 }
