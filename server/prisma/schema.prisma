@@ -1,0 +1,86 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Motion {
+  GLIDE
+  PULSE
+  UNDULATE
+  DART
+  DRIFT
+}
+
+model User {
+  id           String        @id @default(uuid())
+  email        String        @unique
+  name         String
+  passwordHash String
+  role         Role          @default(USER)
+  score        Int           @default(0)
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+  attempts     QuizAttempt[]
+
+  @@map("users")
+}
+
+model Creature {
+  id          String        @id @default(uuid())
+  name        String
+  latinName   String?
+  description String
+  diet        String
+  size        String
+  weight      String
+  lifespan    String
+  habitat     String
+  imageUrl    String
+  depth       Int
+  motion      Motion        @default(GLIDE)
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  questions   Question[]
+  attempts    QuizAttempt[]
+
+  @@index([depth])
+  @@map("creatures")
+}
+
+model Question {
+  id           String   @id @default(uuid())
+  creatureId   String
+  text         String
+  options      String[]
+  correctIndex Int
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  creature     Creature @relation(fields: [creatureId], references: [id], onDelete: Cascade)
+
+  @@index([creatureId])
+  @@map("questions")
+}
+
+model QuizAttempt {
+  id           String   @id @default(uuid())
+  userId       String
+  creatureId   String
+  correctCount Int
+  passed       Boolean
+  awardedPoint Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  creature     Creature @relation(fields: [creatureId], references: [id], onDelete: Cascade)
+
+  @@index([userId, creatureId])
+  @@map("quiz_attempts")
+}
