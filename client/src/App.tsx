@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import LoginPage from './features/auth/LoginPage';
+import RegisterPage from './features/auth/RegisterPage';
 import { useAppDispatch } from './store/hooks';
 import { restoreSession } from './store/authSlice';
 import { fetchCreatures } from './store/creaturesSlice';
@@ -26,6 +28,8 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Placeholder />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </>
