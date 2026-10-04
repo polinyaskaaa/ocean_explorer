@@ -4,6 +4,8 @@ import { env } from './lib/env';
 import { errorHandler, notFoundHandler } from './middleware/error-handler';
 import { authRouter } from './modules/auth/auth.routes';
 import { adminCreaturesRouter, creaturesRouter } from './modules/creatures/creatures.routes';
+import { progressRouter } from './modules/progress/progress.routes';
+import { quizRouter } from './modules/quiz/quiz.routes';
 
 export function createApp() {
   const app = express();
@@ -15,6 +17,8 @@ export function createApp() {
 
   app.use('/api/auth', authRouter);
   app.use('/api/creatures', creaturesRouter);
+  app.use('/api/quiz', quizRouter);
+  app.use('/api/progress', progressRouter);
   app.use('/api/admin/creatures', adminCreaturesRouter);
 
   app.use(notFoundHandler);
