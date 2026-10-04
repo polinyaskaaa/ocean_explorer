@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Велика біла акула">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9c7cf"/><stop offset=".55" stop-color="#6e8794"/><stop offset=".56" stop-color="#e8eef1"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)">
+    <path d="M44 152c30-42 96-66 172-62 46 3 86 16 116 36-10 16-10 36 0 52-30 20-70 33-116 36-76 4-142-20-172-62z"/>
+    <path d="M186 92c4-34 18-58 42-74-4 30 2 56 20 76-20-3-41-4-62-2z"/>
+    <path d="M176 210c-8 24-4 42 12 56-28-8-48-26-58-52 15-2 30-3 46-4z"/>
+    <path d="M336 126c14-16 30-28 50-36-10 22-12 42-6 60 8 16 12 32 12 48-20-14-36-32-46-52-4-7-7-14-10-20z"/>
+  </g>
+  <circle cx="86" cy="140" r="6" fill="#16242b"/>
+  <path d="M52 168c26 14 58 22 96 24" stroke="#16242b" stroke-width="3" fill="none" opacity=".45"/>
+  <g stroke="#16242b" stroke-width="3" opacity=".4">
+    <path d="M132 124v30M146 120v36M160 118v40"/>
+  </g>
+</svg>

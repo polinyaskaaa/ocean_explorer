@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Дельфін афаліна">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd8ef"/><stop offset="1" stop-color="#3f7fa6"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)">
+    <path d="M56 168c26-46 84-72 148-70 40 1 74 12 100 30-8-20-10-34-8-46 22 14 38 34 46 58 6 18 4 34-6 46-30 34-84 52-144 48-48-3-88-20-116-48-8-8-12-14-20-18z"/>
+    <path d="M196 96c6-24 22-40 48-48-6 18-4 34 6 48-18-4-36-4-54 0z"/>
+    <path d="M186 196c-6 30 2 54 24 72-34-6-58-28-70-60 16-6 31-10 46-12z"/>
+    <path d="M62 170c-18 2-34 10-48 24 16 2 30 8 42 18 2-14 4-28 6-42z"/>
+  </g>
+  <circle cx="300" cy="150" r="7" fill="#0b2740"/>
+  <path d="M310 168c12 4 22 10 30 18" stroke="#0b2740" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

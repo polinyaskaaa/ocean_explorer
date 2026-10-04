@@ -1,0 +1,43 @@
+.ocean {
+  position: fixed;
+  inset: 0;
+  z-index: -3;
+  overflow: hidden;
+  pointer-events: none;
+  isolation: isolate;
+}
+
+.ocean > * {
+  position: absolute;
+}
+
+.ocean__water {
+  inset: 0;
+  overflow: hidden;
+}
+
+.ocean__column {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  will-change: transform;
+}
+
+.ocean__vignette {
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 42%, transparent 38%, rgba(0, 6, 14, 0.85) 100%);
+  opacity: calc(0.22 + var(--w-deep, 0) * 0.5);
+}
+
+.dive--paused .ocean *,
+.dive--paused .ocean {
+  animation-play-state: paused !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ocean *,
+  .ocean-floor * {
+    animation: none !important;
+  }
+}
