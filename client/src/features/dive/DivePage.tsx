@@ -1,4 +1,5 @@
 import { useAppSelector } from '../../store/hooks';
+import CreatureModal from './CreatureModal';
 import DiveScene from './DiveScene';
 
 export default function DivePage() {
@@ -27,5 +28,10 @@ export default function DivePage() {
     );
   }
 
-  return <DiveScene />;
+  return (
+    <>
+      <DiveScene />
+      <CreatureModal />
+    </>
+  );
 }
