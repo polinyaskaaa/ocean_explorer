@@ -42,6 +42,14 @@ export async function submitQuiz(userId: string, creatureId: string, input: Subm
     throw HttpError.badRequest('У відповідях є дублікати питань');
   }
 
+  const poolSize = await prisma.question.count({ where: { creatureId } });
+  if (poolSize === 0) throw HttpError.notFound('Для цього мешканця ще не додано питань');
+
+  const expectedCount = Math.min(QUIZ_QUESTION_COUNT, poolSize);
+  if (answers.length !== expectedCount) {
+    throw HttpError.badRequest(`Очікується рівно ${expectedCount} відповідей у спробі`);
+  }
+
   const questions = await prisma.question.findMany({
     where: { id: { in: [...uniqueIds] }, creatureId },
   });
@@ -61,7 +69,7 @@ export async function submitQuiz(userId: string, creatureId: string, input: Subm
   });
 
   const correctCount = results.filter((r) => r.correct).length;
-  const passed = correctCount >= Math.max(1, answers.length - MAX_MISTAKES);
+  const passed = correctCount >= Math.max(1, expectedCount - MAX_MISTAKES);
 
   const alreadyAwarded = await prisma.quizAttempt.findFirst({
     where: { userId, creatureId, awardedPoint: true },
@@ -80,7 +88,7 @@ export async function submitQuiz(userId: string, creatureId: string, input: Subm
 
   return {
     correctCount,
-    totalQuestions: answers.length,
+    totalQuestions: expectedCount,
     passed,
     awardedPoint,
     totalScore: user.score,
