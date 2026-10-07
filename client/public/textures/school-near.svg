@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1100" viewBox="0 0 1900 1100">
+  <defs>
+    <g id="f">
+      <path d="M0 0c16-9 40-9 56 0-16 9-40 9-56 0z"/>
+      <path d="M0 0l-13-8v16z"/>
+      <path d="M28 -7c4-6 10-9 16-9-3 5-4 10-3 15z"/>
+    </g>
+  </defs>
+  <g fill="#06202f" opacity="0.42">
+    <use href="#f" transform="translate(1184,784) rotate(7.1) scale(1.06)"/>
+    <use href="#f" transform="translate(1406,959) rotate(-0.6) scale(0.71)"/>
+    <use href="#f" transform="translate(1792,694) rotate(-6.2) scale(1.11)"/>
+    <use href="#f" transform="translate(891,305) rotate(1.2) scale(0.94)"/>
+    <use href="#f" transform="translate(25,276) rotate(6.7) scale(0.83)"/>
+    <use href="#f" transform="translate(1455,220) rotate(-5.8) scale(1.06)"/>
+  </g>
+</svg>
