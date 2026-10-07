@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ліхтарна риба">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fa8c9"/><stop offset="1" stop-color="#22374f"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)">
+    <path d="M60 150c34-40 88-60 150-58 40 1 72 12 96 30-8 18-8 38 0 56-24 18-56 29-96 30-62 2-116-18-150-58z"/>
+    <path d="M186 96c4-22 14-38 30-48-2 20 2 36 12 50-14-2-28-3-42-2z"/>
+    <path d="M182 200c-6 20-2 36 10 48-22-8-36-22-44-42 11-2 23-4 34-6z"/>
+    <path d="M318 122c14-14 30-24 48-30-10 20-12 38-6 54 6 14 10 28 10 42-18-14-34-30-44-48-4-6-6-12-8-18z"/>
+  </g>
+  <circle cx="92" cy="142" r="12" fill="#dff1ff"/><circle cx="90" cy="143" r="6" fill="#0c1a28"/>
+  <g fill="#9ff0ff">
+    <circle cx="120" cy="184" r="5"/><circle cx="148" cy="192" r="5"/><circle cx="176" cy="196" r="5"/>
+    <circle cx="204" cy="196" r="5"/><circle cx="232" cy="192" r="5"/><circle cx="260" cy="186" r="5"/>
+    <circle cx="132" cy="120" r="4" opacity=".7"/><circle cx="168" cy="112" r="4" opacity=".7"/><circle cx="204" cy="110" r="4" opacity=".7"/>
+  </g>
+</svg>

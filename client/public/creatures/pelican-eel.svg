@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Мішкорот">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2f45"/><stop offset="1" stop-color="#0c0f1a"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)">
+    <path d="M78 96c16-8 34-6 52 6 40 26 72 44 96 54-24 10-56 28-96 54-18 12-36 14-52 6 22-32 30-72 0-120z"/>
+    <path d="M226 156c40 4 80 18 120 42-10-18-10-36 0-54-40 24-80 36-120 42z" opacity=".9"/>
+  </g>
+  <path d="M84 100c14-6 28-4 42 4-14 30-16 62-6 96-12 6-24 4-36-4 22-32 26-66 0-96z" fill="#3b4360" opacity=".7"/>
+  <g stroke="#4c556f" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M132 112c34 22 62 38 84 46M132 200c34-22 62-38 84-46"/>
+  </g>
+  <circle cx="106" cy="128" r="8" fill="#e8f2ff"/><circle cx="105" cy="129" r="4" fill="#05070d"/>
+  <g fill="#ff8fa6">
+    <circle cx="352" cy="150" r="9"/><circle cx="352" cy="150" r="17" opacity=".3"/>
+  </g>
+</svg>

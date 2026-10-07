@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Летюча риба">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd4ee"/><stop offset=".55" stop-color="#3a7fae"/>
+      <stop offset=".56" stop-color="#e9f3fa"/><stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="w" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#cfe9f7" stop-opacity=".95"/><stop offset="1" stop-color="#5f9ec6" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#w)">
+    <path d="M186 140c-28-46-72-72-128-78 18 34 22 66 12 96 38 6 77 0 116-18z"/>
+    <path d="M198 160c-24 40-62 64-112 72 16-30 20-58 12-84 34-4 68 0 100 12z" opacity=".75"/>
+  </g>
+  <g fill="url(#g)">
+    <path d="M150 150c26-34 74-54 140-52 34 1 62 9 84 22-6 14-6 30 0 44-22 13-50 21-84 22-66 2-114-18-140-36z"/>
+    <path d="M356 128c12-12 26-21 42-26-8 18-10 34-5 48 5 12 8 24 8 36-16-11-30-25-37-41-3-6-6-11-8-17z"/>
+  </g>
+  <circle cx="186" cy="144" r="7" fill="#12283a"/>
+  <path d="M162 160c8 6 18 9 30 9" stroke="#12283a" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>
