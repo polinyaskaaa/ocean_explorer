@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1100" viewBox="0 0 1900 1100">
+  <defs>
+    <g id="f">
+      <path d="M0 0c16-9 40-9 56 0-16 9-40 9-56 0z"/>
+      <path d="M0 0l-13-8v16z"/>
+      <path d="M28 -7c4-6 10-9 16-9-3 5-4 10-3 15z"/>
+    </g>
+  </defs>
+  <g fill="#06202f" opacity="0.3">
+    <use href="#f" transform="translate(880,427) rotate(5.9) scale(0.29)"/>
+    <use href="#f" transform="translate(12,553) rotate(-6.7) scale(0.46)"/>
+    <use href="#f" transform="translate(1053,663) rotate(-1.9) scale(0.27)"/>
+    <use href="#f" transform="translate(1337,504) rotate(-5.5) scale(0.42)"/>
+    <use href="#f" transform="translate(452,173) rotate(6.8) scale(0.37)"/>
+    <use href="#f" transform="translate(1122,815) rotate(3.9) scale(0.34)"/>
+    <use href="#f" transform="translate(193,348) rotate(3.6) scale(0.41)"/>
+    <use href="#f" transform="translate(801,151) rotate(-4.6) scale(0.32)"/>
+    <use href="#f" transform="translate(534,850) rotate(6.2) scale(0.30)"/>
+    <use href="#f" transform="translate(1671,119) rotate(-0.1) scale(0.34)"/>
+    <use href="#f" transform="translate(45,477) rotate(-6.2) scale(0.46)"/>
+    <use href="#f" transform="translate(1134,183) rotate(6.3) scale(0.39)"/>
+    <use href="#f" transform="translate(386,74) rotate(0.6) scale(0.28)"/>
+  </g>
+</svg>
