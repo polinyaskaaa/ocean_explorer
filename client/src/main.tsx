@@ -7,6 +7,7 @@ import { store } from './store';
 import './styles/base.css';
 import './styles/ocean.css';
 import './styles/dive.css';
+import './styles/admin.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
