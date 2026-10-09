@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+  <!-- Дослідницький катер, з якого починається занурення. -->
+  <defs>
+    <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f7fa"/><stop offset="1" stop-color="#c3ced8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Щогла з прапорцем і антеною -->
+  <path d="M164 118V24" stroke="#59677a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M166 28l44 14-44 14z" fill="#e2603f"/>
+  <path d="M164 46l-30 18" stroke="#59677a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Рубка -->
+  <path d="M112 118V78a8 8 0 0 1 8-8h72a8 8 0 0 1 8 8v40z" fill="#eef3f8"/>
+  <path d="M120 82h30v22h-30zM162 82h30v22h-30z" fill="#2f6c8f"/>
+  <path d="M112 118h88v8h-88z" fill="#d3dde6"/>
+
+  <!-- Корпус -->
+  <path d="M34 126h252l-30 44H62z" fill="url(#hull)"/>
+  <path d="M40 142h240l-6 10H46z" fill="#e2603f"/>
+
+  <!-- Леєри та обладнання на палубі -->
+  <g stroke="#8fa1b2" stroke-width="3" stroke-linecap="round">
+    <path d="M52 126v-14M76 126v-14M100 126v-14M212 126v-14M236 126v-14M260 126v-14"/>
+    <path d="M52 112h48M212 112h48"/>
+  </g>
+  <circle cx="236" cy="104" r="12" fill="#9fb1c1"/>
+  <path d="M228 104h16" stroke="#5a6b7c" stroke-width="3"/>
+</svg>

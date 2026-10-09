@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="240" viewBox="0 0 620 240">
+  <!-- Тропічний острівець біля горизонту: пагорб, пляж і кілька пальм.
+       Кольори приглушені — на відстані повітряна перспектива з'їдає контраст. -->
+  <defs>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f9f7d"/><stop offset="1" stop-color="#2f6552"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8d6ad"/><stop offset="1" stop-color="#c4ac7e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Дальня скеля -->
+  <path d="M96 182c18-34 44-56 76-66-10 26-8 48 6 66z" fill="#3c6f66" opacity=".75"/>
+
+  <!-- Основний пагорб -->
+  <path d="M150 184c22-58 74-96 136-98 56-2 104 34 130 98z" fill="url(#hill)"/>
+  <path d="M286 86c26 10 46 34 60 72-30-6-54-28-60-72z" fill="#2a5b4a" opacity=".55"/>
+
+  <!-- Пляж -->
+  <path d="M84 188c74-16 348-18 452 0-58 14-394 16-452 0z" fill="url(#sand)"/>
+
+  <!-- Пальми -->
+  <g>
+    <path d="M232 186c-6-32-2-56 10-74" stroke="#6b4a2f" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <g fill="#3f8a63">
+      <path d="M242 112c-22-14-42-16-60-6 20 0 36 6 48 18z"/>
+      <path d="M242 112c22-16 42-20 62-12-20 2-36 10-48 24z"/>
+      <path d="M242 112c-10-24-8-44 6-60-6 20-4 38 4 54z"/>
+      <path d="M242 112c14 18 18 36 12 54-2-20-8-36-20-48z"/>
+    </g>
+  </g>
+  <g>
+    <path d="M356 186c8-28 6-50-4-66" stroke="#6b4a2f" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <g fill="#48956c">
+      <path d="M352 120c-20-12-38-13-54-4 18 0 32 5 43 16z"/>
+      <path d="M352 120c19-14 37-17 55-10-18 2-32 9-43 21z"/>
+      <path d="M352 120c-8-21-6-38 6-52-6 18-4 33 3 47z"/>
+    </g>
+  </g>
+  <g>
+    <path d="M300 188c-4-22-2-38 6-50" stroke="#7a573a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <g fill="#3f8a63" opacity=".9">
+      <path d="M306 138c-16-10-30-11-43-3 14 0 26 4 34 13z"/>
+      <path d="M306 138c15-11 29-13 44-8-15 2-26 7-35 17z"/>
+    </g>
+  </g>
+</svg>

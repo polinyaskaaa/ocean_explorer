@@ -15,6 +15,7 @@ import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import CreatureMarker from './CreatureMarker';
 import Hud from './Hud';
 import OceanBackground from './OceanBackground';
+import SurfaceScene from './SurfaceScene';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -138,6 +139,8 @@ export default function DiveScene() {
       <OceanBackground />
 
       <Hud />
+
+      <SurfaceScene />
 
       <div ref={trackRef} className="dive__track" style={{ height: `${SCROLL_SCREENS * 100}vh` }}>
         {creatures.map((creature, index) => (
