@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Гігантський ізопод">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9c9a8"/><stop offset="1" stop-color="#8d7550"/>
+    </linearGradient>
+  </defs>
+  <g stroke="#7a6442" stroke-width="7" stroke-linecap="round">
+    <path d="M132 118l-46-26M132 148l-52-6M138 178l-48 20M268 118l46-26M268 148l52-6M262 178l48 20"/>
+  </g>
+  <g fill="url(#g)" stroke="#6f5a3c" stroke-width="2">
+    <path d="M200 58c30 0 52 16 58 40h-116c6-24 28-40 58-40z"/>
+    <rect x="132" y="98" width="136" height="26" rx="13"/>
+    <rect x="130" y="126" width="140" height="26" rx="13"/>
+    <rect x="132" y="154" width="136" height="26" rx="13"/>
+    <rect x="138" y="182" width="124" height="24" rx="12"/>
+    <path d="M144 208h112c-6 26-28 42-56 42s-50-16-56-42z"/>
+  </g>
+  <g stroke="#7a6442" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M176 60c-10-18-24-28-42-32M224 60c10-18 24-28 42-32"/>
+  </g>
+  <g fill="#2b2015"><circle cx="178" cy="76" r="7"/><circle cx="222" cy="76" r="7"/></g>
+</svg>

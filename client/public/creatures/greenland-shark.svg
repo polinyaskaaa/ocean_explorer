@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Гренландська полярна акула">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d8a90"/><stop offset="1" stop-color="#3d484f"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)">
+    <path d="M40 152c34-36 96-56 172-52 44 2 82 14 112 32-10 14-10 30 0 44-30 18-68 30-112 32-76 4-138-18-172-56z"/>
+    <path d="M204 100c4-22 12-38 26-48-2 20 2 36 12 48-13-1-26-1-38 0z"/>
+    <path d="M180 206c-6 20 0 34 12 44-22-8-36-22-44-42 11-1 22-2 32-2z"/>
+    <path d="M324 128c16-14 34-22 52-26-12 18-14 34-8 50 6 14 10 26 10 40-20-14-36-30-46-48-3-6-6-11-8-16z"/>
+  </g>
+  <g fill="#dfe7ea" opacity=".35">
+    <ellipse cx="120" cy="120" rx="26" ry="10"/><ellipse cx="190" cy="108" rx="20" ry="8"/>
+  </g>
+  <g stroke="#2d363c" stroke-width="3" opacity=".45">
+    <path d="M118 126v26M132 122v32M146 120v36"/>
+  </g>
+  <circle cx="78" cy="142" r="7" fill="#1d252a"/>
+  <path d="M74 140c10-4 18-2 24 6" stroke="#9fd8e8" stroke-width="3" fill="none" opacity=".8"/>
+  <path d="M48 166c24 12 54 19 90 21" stroke="#2d363c" stroke-width="3" fill="none" opacity=".4"/>
+</svg>

@@ -10,10 +10,13 @@
   "scripts": {
     "db:up": "docker compose up -d",
     "db:down": "docker compose down",
+    "setup": "npm install && npm run db:up && npm run -w server prisma:push && npm run -w server seed",
     "dev": "concurrently -n server,client -c blue,magenta \"npm:dev:server\" \"npm:dev:client\"",
     "dev:server": "npm run -w server dev",
     "dev:client": "npm run -w client dev",
-    "build": "npm run -w server build && npm run -w client build"
+    "build": "npm run -w server build && npm run -w client build",
+    "seed": "npm run -w server seed",
+    "test:api": "npm run -w server test:api"
   },
   "devDependencies": {
     "concurrently": "^9.1.0"

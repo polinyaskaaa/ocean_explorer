@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Риба-меч">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b4f6b"/><stop offset=".5" stop-color="#6a86a4"/>
+      <stop offset=".51" stop-color="#dae4ee"/><stop offset="1" stop-color="#f3f7fa"/>
+    </linearGradient>
+  </defs>
+  <path d="M8 148l86 6-86 8z" fill="#8aa0b8"/>
+  <g fill="url(#g)">
+    <path d="M86 152c34-32 92-50 156-48 40 1 72 11 96 28-8 18-8 38 0 56-24 17-56 27-96 28-64 2-122-18-156-48z"/>
+    <path d="M196 106c4-40 16-68 36-84-4 34 2 62 20 82-19-1-38 0-56 2z"/>
+    <path d="M190 200c-6 20 0 34 12 44-22-8-36-22-44-42 11-1 22-2 32-2z"/>
+    <path d="M330 128c16-14 34-24 54-30-12 20-14 40-8 58 6 14 10 28 10 42-20-14-38-32-48-52-3-6-6-12-8-18z"/>
+  </g>
+  <circle cx="112" cy="146" r="9" fill="#0f1b28"/>
+  <path d="M92 164c16 10 38 16 64 18" stroke="#3a536f" stroke-width="3" fill="none" opacity=".5"/>
+</svg>

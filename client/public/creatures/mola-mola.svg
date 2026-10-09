@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Риба-місяць">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfd9e0"/><stop offset="1" stop-color="#6a7f8e"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)">
+    <path d="M132 150c0-52 40-90 92-90 40 0 72 20 88 52 10-42 16-64 20-70 6 34 6 70 0 106 6 36 6 72 0 106-4-6-10-28-20-70-16 32-48 52-88 52-52 0-92-38-92-90z"/>
+    <path d="M136 122c-26-4-48-2-66 6 16 10 26 22 30 36-4 14-14 26-30 36 18 8 40 10 66 6-6-28-6-56 0-84z"/>
+  </g>
+  <circle cx="176" cy="132" r="9" fill="#243440"/>
+  <path d="M154 168c8 8 16 12 26 12" stroke="#243440" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <g fill="#ffffff" opacity=".18">
+    <circle cx="240" cy="120" r="10"/><circle cx="270" cy="160" r="8"/><circle cx="226" cy="186" r="7"/>
+  </g>
+</svg>

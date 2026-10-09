@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Риба-крапля">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7c8c4"/><stop offset="1" stop-color="#a1787c"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)">
+    <path d="M96 196c0-56 44-102 104-102s104 46 104 102c0 18-10 28-30 30-58 6-90 6-148 0-20-2-30-12-30-30z"/>
+    <path d="M186 150c-14-4-22-14-22-28 14 6 28 6 42 0 0 14-8 24-20 28z"/>
+    <path d="M300 186c22-8 40-8 54 0-14 8-26 20-34 36-8-14-15-26-20-36z"/>
+    <path d="M100 186c-22-8-40-8-54 0 14 8 26 20 34 36 8-14 15-26 20-36z"/>
+  </g>
+  <circle cx="160" cy="166" r="11" fill="#f3e6e2"/><circle cx="161" cy="168" r="5" fill="#2b1c1f"/>
+  <circle cx="240" cy="166" r="11" fill="#f3e6e2"/><circle cx="239" cy="168" r="5" fill="#2b1c1f"/>
+  <path d="M162 214c14 14 62 14 76 0" stroke="#2b1c1f" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>

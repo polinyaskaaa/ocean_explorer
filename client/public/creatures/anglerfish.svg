@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Глибоководний вудильник">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b4a63"/><stop offset="1" stop-color="#121a2a"/>
+    </linearGradient>
+    <radialGradient id="lure" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fffbe0"/><stop offset=".45" stop-color="#ffe066"/><stop offset="1" stop-color="#ffe066" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g fill="url(#g)">
+    <path d="M110 168c0-56 42-96 100-96 54 0 94 34 100 84 2 18-4 30-20 34-54 12-106 14-158 6-14-2-22-12-22-28z"/>
+    <path d="M300 178c20-8 36-6 48 6-16 6-28 18-36 36-6-16-11-30-12-42z"/>
+    <path d="M186 208c-10 22-8 38 6 50-24-8-40-24-46-46 13-2 27-3 40-4z"/>
+  </g>
+  <path d="M182 82c-8-34-2-58 18-72 4 20 16 34 36 42" stroke="#6f86a8" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="236" cy="52" r="34" fill="url(#lure)"/>
+  <circle cx="236" cy="52" r="11" fill="#ffe066"/>
+  <circle cx="158" cy="146" r="12" fill="#eaf4ff"/><circle cx="156" cy="148" r="5" fill="#0a0f1a"/>
+  <path d="M118 182c26 10 60 16 100 18" stroke="#0a0f1a" stroke-width="4" fill="none" opacity=".6"/>
+  <g fill="#eaf4ff">
+    <path d="M128 178l8 18 8-18zM148 182l8 18 8-18zM168 186l8 18 8-18zM188 188l8 18 8-18z"/>
+    <path d="M136 200l8-16 8 16zM156 204l8-16 8 16zM176 206l8-16 8 16z" opacity=".9"/>
+  </g>
+</svg>

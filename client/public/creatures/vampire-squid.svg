@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Пекельний вампір">
+  <defs>
+    <radialGradient id="g" cx=".5" cy=".3" r=".8">
+      <stop offset="0" stop-color="#b8465f"/><stop offset="1" stop-color="#4a1229"/>
+    </radialGradient>
+  </defs>
+  <g fill="url(#g)">
+    <path d="M200 30c34 0 58 26 58 66 0 22-6 40-16 54h-84c-10-14-16-32-16-54 0-40 24-66 58-66z"/>
+    <path d="M148 24c-16-8-28-18-36-32 2 22 12 40 26 52 3-7 6-14 10-20z"/>
+    <path d="M252 24c16-8 28-18 36-32-2 22-12 40-26 52-3-7-6-14-10-20z"/>
+    <path d="M116 150h168c4 46-24 88-84 118-60-30-88-72-84-118z"/>
+  </g>
+  <g stroke="#f2c6d3" stroke-width="3" fill="none" opacity=".55">
+    <path d="M200 152v112M160 154c-2 44 10 76 40 110M240 154c2 44-10 76-40 110M130 158c-4 36 8 64 34 88M270 158c4 36-8 64-34 88"/>
+  </g>
+  <circle cx="176" cy="88" r="14" fill="#8fd7ff"/><circle cx="176" cy="88" r="6" fill="#10121f"/>
+  <circle cx="224" cy="88" r="14" fill="#8fd7ff"/><circle cx="224" cy="88" r="6" fill="#10121f"/>
+  <g fill="#8fd7ff" opacity=".8">
+    <circle cx="150" cy="238" r="4"/><circle cx="200" cy="262" r="4"/><circle cx="250" cy="238" r="4"/>
+  </g>
+</svg>
