@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="90" viewBox="0 0 300 90">
+  <!-- Спина кита над водою: те, що видно з катера на горизонті. -->
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f5a70"/><stop offset="1" stop-color="#1b2c3c"/>
+    </linearGradient>
+  </defs>
+  <path d="M24 70c22-30 62-46 120-46s96 16 118 46z" fill="url(#b)"/>
+  <path d="M168 30c8-16 18-25 30-27-6 12-7 22-3 31z" fill="url(#b)"/>
+  <path d="M252 70c16-10 30-24 40-42 2 20 6 34 14 42z" fill="url(#b)"/>
+  <ellipse cx="150" cy="72" rx="132" ry="9" fill="#0d3b58" opacity=".45"/>
+</svg>

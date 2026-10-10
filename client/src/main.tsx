@@ -6,6 +6,7 @@ import App from './App';
 import { store } from './store';
 import './styles/base.css';
 import './styles/ocean.css';
+import './styles/surface.css';
 import './styles/dive.css';
 import './styles/admin.css';
 
